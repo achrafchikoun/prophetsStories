@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="3dp"
+    card_view:cardBackgroundColor="#99000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/card_view_design"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        android:foreground="@drawable/card_view_pressed">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/islamic_icon" />
+
+        <TextView
+            android:id="@+id/txt_story_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Title"
+            android:textColor="#eeb549"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

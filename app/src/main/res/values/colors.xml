@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eea54c</color>
+    <color name="colorPrimaryDark">#A2621E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionMenuTextColor">#285852</color>
+
+    
+    <drawable name="itemPressed">#e6fae181</drawable>
+    <drawable name="itemSelected">#e6fae181</drawable>
+</resources>
